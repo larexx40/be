@@ -12,13 +12,13 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Backend Development (Node.js)</h3>
+            <h3>Backend Development (Node.js, PHP/Laravel)</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Designing and building RESTful APIs and backend services with Node.js.</p>
+              <p>Designing and building RESTful APIs and backend services with Node.js and Laravel.</p>
             </li>
 
             <li>

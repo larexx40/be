@@ -2,59 +2,61 @@ import React from 'react';
 import "./portfolio.css";
 import IMG6 from "../../assets/abc.svg";
 import lightIMG from "../../assets/lightng.png";
-import IMG1 from "../../assets/gateng.png"
-import IMG2 from "../../assets/gate_admin.png"
+import IMG1 from "../../assets/gateng.png";
 import IMG7 from "../../assets/Screenshot 2023-02-07 222618.png";
-import IMG4 from "../../assets/nurquest.png"
+import IMG4 from "../../assets/nurquest.png";
+import savetobuy from "../../assets/savetobuy_home.png";
 
 const data = [
   {
     id: 1,
+    image: savetobuy,
+    title:
+      "SaveToBuy - A savings and payments platform that helps users plan and pay for products over time. Worked on core backend integrations and payment flows.",
+    github: "",
+    demo: "https://savetobuy.io",
+  },
+  {
+    id: 2,
+    image: IMG6,
+    title:
+      "Cardify - A fintech platform with three major systems: Wallet, Exchange and Bills. Contributed mainly to the bills system.",
+    github: "",
+    demo: "https://app.cardify.co/",
+  },
+  {
+    id: 3,
     image: IMG1,
     title:
-      "Gate Africa empowers users to effortlessly create and send guest invitations to their estates. Avaliable on play store and app store",
+      "Gate Africa empowers users to effortlessly create and send guest invitations to their estates. Available on Play Store and App Store.",
     github: "",
     demo: "https://gate.africa/",
   },
   {
-    id: 2,
-    image: IMG2,
-    title:
-      "Gate Africa Admin is an app designed for estate security personnel.",
-    github: "",
-    demo: "https://gate.com.ng/admin/signin.php",
-  },
-  {
-    id: 3,
-    image: IMG6,
-    title: "Cardify - A fintech platform that has three major system wallet, Exchange and Bills, worked mainly on the bills system",
-    github: "",
-    demo: "https://app.cardify.co/"
-  },
-  {
     id: 4,
     image: IMG7,
-    title: "Shortleters - A proptech system that deals with the booking, letting of shortlets apartments",
+    title:
+      "Shortleters - A proptech platform for booking and managing short‑let apartments.",
     github: "",
     // demo: "https://beta.shortleters.com/"
-    demo:""
+    demo: "",
   },
   {
     id: 5,
     image: lightIMG,
-    title: "LighNG - A bills plaatform where you can pay for your electricity bills from the comfort of your home.",
+    title:
+      "LighNG - A bills platform where you can conveniently pay your electricity bills from the comfort of your home.",
     github: "",
-    demo: "https://light.ng/"
+    demo: "https://light.ng/",
   },
   {
-    id: 4,
+    id: 6,
     image: IMG4,
     title:
-      "Nurquest - An Islamic compass. A journey of transformative enlightenment. It has features such as Quran, Hadiths, Islamic wallpaper, Islamic Scholar teachings, Arabic class and more. ",
+      "Nurquest - An Islamic compass and learning platform featuring Quran, Hadiths, Islamic wallpapers, scholar teachings, Arabic classes and more.",
     github: "",
     demo: "https://www.nurquest.com/",
   },
-  
 ]
 
 const Portfolio = () => {
