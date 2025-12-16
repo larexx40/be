@@ -247,3 +247,4 @@ This portfolio is for demonstration purposes. Individual project licenses may va
 ---
 
 **Built with ❤️ using modern backend technologies and AWS cloud services**
+-
